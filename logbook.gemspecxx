@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "logbook/version"
 
 Gem::Specification.new do |s|
-  s.name        = "lg"
+  s.name        = "pm"
   s.version     = Logbook::VERSION
   s.authors     = ["Dotan Nahum"]
   s.email       = ["jondotan@gmail.com"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{log your memories onto virtual logbooks made of Gists}
   s.description = %q{log your memories onto virtual logbooks made of Gists}
 
-  s.rubyforge_project = "lg"
+  s.rubyforge_project = "pm"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
